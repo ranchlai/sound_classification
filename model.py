@@ -144,7 +144,7 @@ class ESCModel(nn.Layer):
         self.fc_esc50 = nn.Linear(2048, 50, bias_attr=True)
         self.drop = nn.Dropout(0.5)
         if pretrained:
-            path = get_weights_path_from_url(urls[fold])
+            path = get_weights_path_from_url(urls[fold - 1])
             self.load_dict(paddle.load(path))
 
     def forward(self, X):
