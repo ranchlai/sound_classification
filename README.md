@@ -17,9 +17,7 @@ python test.py -a <audio_folder> -m <meta_file> -d gpu
 ```
 
 ### Results
-<b>ESC-50 Test acc (5-fold cross-validation) </b>
-- Paddle: 0.920
-Without any tricks, this example achieved 0.920 acc, ranking <b> No. 2 </b> in the leader board.
+Without any tricks, this example achieved average acc 0.937 across 5 folds, ranking <b> No. 2 </b> in the leader board.
 
 ## Training
 TBD
