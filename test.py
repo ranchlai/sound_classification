@@ -18,10 +18,7 @@ import glob
 import paddle
 import tqdm
 import argparse
-
 from model import ESCModel
-
-audio_folder = '/ssd3/public/datasets/ESC50/esc50/ESC-50-master/audio'
 
 if __name__ == '__main__':
 
