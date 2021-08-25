@@ -11,13 +11,13 @@ The tricks and tips are as follows:
 - Use large dropout,
 
 ## Testing
-run the following to test on esc-50 dataset. You might need
+First you need to download the ESC50 dataset following this [link](https://github.com/karolpiczak/ESC-50). Then run the following to test on ESC50 dataset.
 ``` bash
 python test.py -a <audio_folder> -m <meta_file> -d gpu
 ```
 
 ### Results
-Without any tricks, this example achieved average acc 0.937 across 5 folds, ranking <b> No. 2 </b> in the leader board.
+Without any tricks, this example achieved average acc 0.937 across 5 folds, ranking <b> No. 3 </b> (as of 2021-08) in the leader board.
 
 ## Training
 TBD
