@@ -22,8 +22,8 @@ from paddle.utils.download import get_weights_path_from_url
 
 urls = [
     'https://bj.bcebos.com/paddleaudio/models/esc50/esc50_fold1_test_acc_0.932.pd',
-    'https://bj.bcebos.com/paddleaudio/models/es50/esc50_fold3_test_acc_0.948.pd',
     'https://bj.bcebos.com/paddleaudio/models/es50/esc50_fold2_test_acc_0.968.pd',
+    'https://bj.bcebos.com/paddleaudio/models/es50/esc50_fold3_test_acc_0.948.pd',
     'https://bj.bcebos.com/paddleaudio/models/es50/esc50_fold4_test_acc_0.955.pd',
     'https://bj.bcebos.com/paddleaudio/models/es50/esc50_fold5_test_acc_0.932.pd',
 ]
